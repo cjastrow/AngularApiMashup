@@ -1,0 +1,46 @@
+#logo {
+	width: 120px;
+	margin: 20px;
+}
+
+#clickIt {
+	margin-left: 5px;
+	text-align: center;
+	font-family: arial black;
+}
+
+#clickIt:hover {
+	cursor: pointer;
+}
+
+#image {
+	margin-top: 20px;
+	margin-left: 20px;
+	width: 500px;
+	height: 500px;
+	border-radius: 15px;
+}
+
+#noImage {
+	width: 500px;
+	border-radius: 15px;
+}
+
+#typer {
+	margin-left: 20px;
+}
+
+h3 {
+	display: inline-block;
+	margin-left: 20px;
+	font-family: arial black;
+	width: 500px;
+}
+
+.reveal {
+	display: block;
+}
+
+.hidden {
+	display: none;
+}

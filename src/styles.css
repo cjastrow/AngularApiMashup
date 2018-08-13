@@ -1,0 +1,10 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+	margin: 0px;
+	font-family: arial;
+	background-image: url("assets/Images/BG.jpg");
+	background-color: #856667;
+	background-size: 100vw 100vh;
+	background-repeat: repeat;
+	background-position: center top;
+}

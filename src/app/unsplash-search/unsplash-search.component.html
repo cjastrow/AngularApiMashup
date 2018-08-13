@@ -1,0 +1,9 @@
+<img id="logo" src="assets/Images/UnsplashLogoPlus.png">
+<br />
+<input id="typer" type="text" #searchTerm />
+<button (click)="searchUnsplash(searchTerm.value)" id="clickIt" >SEARCH</button>
+<br />
+<img id="image" src="{{ pic }}">
+<img [class.hidden]="searchStarted" id="noImage" *ngIf="!pic" src="assets/Images/NoImage.jpg">
+
+<h3>{{ prop }}</h3>
